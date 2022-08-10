@@ -16,10 +16,9 @@ module.exports = function towelSort (matrix) {
           }
           for(let el of temp_array.reverse()){
             newArray.push(el)
+          }
+          temp_array.length=0;
         }
-        }
-
-            }
-   console.log(newArray);   
+      } 
   return newArray;
 }
